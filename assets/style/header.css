@@ -1,0 +1,30 @@
+#bedu-logo {
+  width: 50px;
+  margin-left: 35px;
+}
+
+nav {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav > div > a { 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav > div:first-child{
+  flex-grow: 3;
+}
+
+nav > div:last-child{
+  margin-right: 50px;
+}
+
+
+
+
