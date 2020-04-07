@@ -1,0 +1,53 @@
+body {
+  background-color: #f9f9f9;
+}
+
+@media screen and (min-widht: 576px){
+  body {
+    background-color: #808080;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-widht: 577px) and (max-widht: 767px){
+  body {
+    background-color: #c97d7d;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-widht: 768px) and (max-widht: 991px){
+  body {
+    background-color: #5b5bc2;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-widht: 992px) and (max-widht: 1199px){
+  body {
+    background-color: #5bc27d;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-widht: 1200px){
+  body {
+    background-color: #ad48c9;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-widht: 992px) and (max-widht: 1199px){
+  .searchbar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screeen {
+  .desktop{
+
+  }
+}

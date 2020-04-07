@@ -3,58 +3,34 @@ body {
   }
 
 #destination-text{
-  font-size: 19px;
-  color: black; 
-  text-align: center; 
-}
-
-.title-font{
-  font-size: 25px;
-  font-weight: bold;
-  margin: 10px;
-  margin-bottom: 6px;
+  text-align: center;
 }
 
 .subtitle{
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 #city{
-  font-size: 14px;
-  margin-top: 0px;
-  
-}
-
-.countries{
-  display: grid;
-  grid-template-columns: 33vw 33vw 33vw;
-  grid-template-rows: auto auto auto;
-  justify-items: center;  
-}
-
-#city{
-  justify-items: center;  
+  font-size: large;
+  margin-top: 7px;
 }
 
 .container-countries{
   width: 100%;
-  display: flex;
-  justify-content: center;  
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 32vw 32vw 32vw;
+  grid-template-rows: 25vw 25vw 25vw;
+  justify-items: center;
 }
 
-.countries > div{
+.container-countries > div{
   width: 24vw;
-  height: 30vh;
-  text-align: center;  
+  height: 30vw;
+  text-align: center;
 }
 
-.countries > div > img{
+.container-countries > div > img{
   width: 100%;
-  height: auto; 
+  height: auto;
 }
-
-.second-row{
-  margin-top: 70px;
-}
-
-

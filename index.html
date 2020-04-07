@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bedu Travels</title>
   <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/home/main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/queries/queries.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/destinations/destination.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/common/footer.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/common/header.css'>
@@ -14,67 +15,65 @@
 <body>
   <nav>
     <div>
-      <a href="#">
-        <img
-        src="./assets/images/bedu_logo.png"
-        alt="Bedu"
-        id="bedu-logo"/>
+      <a href="./landing.html">
+        <img src="./assets/images/bedu_logo.png" alt="Bedu" id="bedu-logo"/>
       </a> 
     </div>
-    <div> 
+    <div class="mobile"> 
+      <a href="#">Sign In</a> 
+      <a href="#">Sign Up</a> 
+    </div>
+    <div class="desktop"> 
+      <button class="dropbtn">
+        <i class="fas fa-bars"></i> 
+      </button>
+      <div class="dropdown-content">
         <a href="#">Sign In</a> 
         <a href="#">Sign Up</a> 
-    </div>
+      </div>  
+  </div>
   </nav>
-  <div>
+
     <section id="home-cover">
       <div>
         <p class="marging-bottom-sm text-shadow title-font ">Increíbles tours alrededor del mundo</p>
         <p class="marging-bottom-md text-shadow subtitle-font">Encuentra grandes experiencias,
-          viajes, y actividades a precios
-          fantásticos alrededor del mundo
+          viajes, y actividades a precios fantásticos alrededor del mundo
         </p>
       </div>
       <div class="searchbar">
         <input type="text" placeholder="¿A dónde vas?..." />
-        <button class="search-buttom">
+        <button class="search-buttom" type="button">
            <i class="fas fa-search"></i> 
         </button>
       </div>
     </section>
-  </div>
-  <div>
+
     <section id="icons-container">
       <i class="fab fa-fly fa-7x"></i> 
       <i class="fas fa-ship fa-7x"></i> 
       <i class="fas fa-plane fa-7x"></i> 
     </section>
-  </div>
-  <div>
-    <footer id=page-footer>
-      <address class=style-footer>
+
+    <footer class="footer">
+      <address class="style-footer">
         Bedu Travels
       </br>
         hola@bedutravels.com 
       </address>
     </br>
-      <ul class=style-footer> 
+      <div class="social-media-container"> 
         <a href="#">
-          <img
-          src="./assets/images/facebook.svg"
-          alt="facebook"
-          id="socialMedia-logos"/>
-          <img
-          src="./assets/images/Twitter.svg"
-          alt="Twitter"
-          id="socialMedia-logos"/>
-          <img
-          src="./assets/images/instagram.svg"
-          alt="nstagram"
-          id="socialMedia-logos"/>
+          <img src="./assets/images/facebook.svg" alt="facebook" id="socialMedia-logos"/>
         </a>
-      </ul> 
+        <a href="#">
+          <img src="./assets/images/Twitter.svg" alt="Twitter" id="socialMedia-logos"/>
+        </a>
+        <a href="#">
+          <img src="./assets/images/instagram.svg" alt="Instagram" id="socialMedia-logos"/>
+        </a>
+      </div> 
     </footer>
-  </div>
+
 </body>
 </html>
